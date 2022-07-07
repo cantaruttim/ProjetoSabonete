@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- we are adding an image -- favicon -->
+    <link rel="shortcut icon" type="imagem/jpeg" href="fotos/logo.jpeg">
+    <title> Sabonete de Amor</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="cabecalho">
+        <header>
+            <h1>Sabonete de Amor</h1>
+            <img class="logo" src="logo.jpeg" alt="Logo Sabonete de Amor">
+            <p class="established">Since 2021</p>
+        </header>
+
+        <nav class="menu">
+            <a href="#">Nossa História</a>
+            <a href="#">Produtos</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+
+        <article>
+            <h4>Nossa História</h4>
+            <p>
+                Criada em novembro de 2021, a <i>Sabonete de Amor</i>, surgiu como uma alternativa de uma renda extra.
+                Entretando, se tornou a paixão de seus criadores.
+                Localizada no estado de São Paulo, Capital. É uma empresa familiar, na qual são produzidos sabonetes
+                glicerinados
+                que apresentam diversos benefícios para a pela, como por exemplo:
+            <ol>
+                <li>Hidratante</li>
+                <li>Cicatrizante</li>
+                <li>Reparadora da pele</li>
+            </ol>
+
+            </p>
+
+            <p>
+                Nossos produtos são todos feitos 100% de forma artesanal, sem adicição de parabenos e de conservantes
+                Possuem um <i><strong>cheiro</strong></i> que duram por muito tempo.
+            </p>
+
+            <h4>Nosso Objetivo</h4>
+            <p>
+                Participar da vida das pessoas, desde o seu nascimento até os momentos mais importantes da sua vida!
+                Queremos fazer os momentos <i>especiais</i> ficarem marcados com lembranças especiais
+            </p>
+
+            <h4>Confira os nossos <strong>Produtos</strong> a seguir:</h4>
+            <!-- Queria fazer com Abas (todos os produtos)-->
+            <nav>
+            </nav>
+
+        </article>
+        <div id="produtos">
+            <p>Produtos:
+            </p>
+            <p>
+                <input class="prod" type="radio" name="produto" checked>
+                <label for="produto">Chá de Bêbe</label>
+
+                <input class="prod" type="radio" name="produto">
+                <label for="produto">Letras Individuais</label>
+
+                <input class="prod" type="radio" name="produto">
+                <label for="produto">Mulheres</label>
+
+                <input class="prod" type="radio" name="produto">
+                <label for="produto">Dia dos Namorados</label>
+
+            </p>
+
+            <p>
+                <input class="botao" type="button" value="verificar" onclick="verificar()">
+            </p>
+            <div id="res">
+                <!-- vai mostrar as fotas aqui-->
+                Preencha os dados acima para verificar
+            </div>
+        </div>
+        <br>
+        <footer>
+            <nav>
+                <a href="#">Página do Instagram</a>
+            </nav>
+
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
